@@ -96,6 +96,7 @@ def say(text = ""):
 def exam(obj_word = None):
     if obj_word == None:
         print("Вы находитесь здесь")
+        print()
     elif obj_word in objects:
         print(objects[obj_word].exam())
     else:
